@@ -9,7 +9,7 @@
 import Foundation
 
 extension EmojiArtModel {
-    enum Background: Equatable {
+    enum Background: Equatable, Codable {
         case blank
         case url(URL)
         case imageData(Data)
