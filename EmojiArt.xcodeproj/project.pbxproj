@@ -51,6 +51,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		70F570D728FA927C00F97810 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				702E378128E2215100A18CA0 /* PaletteStore.swift */,
+				EC03074F263771AD001E9F47 /* EmojiArtModel.swift */,
+				EC030751263771D0001E9F47 /* EmojiArtModel.Background.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70F570D828FA928400F97810 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EC030742263771AD001E9F47 /* EmojiArtDocumentView.swift */,
+				70F570DC28FA933100F97810 /* Palette */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70F570D928FA928A00F97810 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EC030753263772D8001E9F47 /* EmojiArtDocument.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		70F570DC28FA933100F97810 /* Palette */ = {
+			isa = PBXGroup;
+			children = (
+				702E378728E2240000A18CA0 /* PaletteChooser.swift */,
+				702E378528E2231600A18CA0 /* PaletteEditor.swift */,
+				702E378328E2226900A18CA0 /* PaletteManager.swift */,
+			);
+			path = Palette;
+			sourceTree = "<group>";
+		};
 		EC030734263771AD001E9F47 = {
 			isa = PBXGroup;
 			children = (
@@ -70,14 +107,9 @@
 		EC03073F263771AD001E9F47 /* EmojiArt */ = {
 			isa = PBXGroup;
 			children = (
-				EC030742263771AD001E9F47 /* EmojiArtDocumentView.swift */,
-				EC030753263772D8001E9F47 /* EmojiArtDocument.swift */,
-				702E378128E2215100A18CA0 /* PaletteStore.swift */,
-				702E378328E2226900A18CA0 /* PaletteManager.swift */,
-				702E378528E2231600A18CA0 /* PaletteEditor.swift */,
-				EC03074F263771AD001E9F47 /* EmojiArtModel.swift */,
-				EC030751263771D0001E9F47 /* EmojiArtModel.Background.swift */,
-				702E378728E2240000A18CA0 /* PaletteChooser.swift */,
+				70F570D928FA928A00F97810 /* ViewController */,
+				70F570D828FA928400F97810 /* View */,
+				70F570D728FA927C00F97810 /* Model */,
 				EC030740263771AD001E9F47 /* EmojiArtApp.swift */,
 				EC030755263774A2001E9F47 /* UtilityExtensions.swift */,
 				EC030756263774A2001E9F47 /* UtilityViews.swift */,
